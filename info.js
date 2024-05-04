@@ -156,13 +156,6 @@ function AddData()
         document.getElementById("address").value = "";
         document.getElementById("email").value = "";
     }
-
-    else{
-        document.getElementById("name").value = "";
-        document.getElementById("age").value = "";
-        document.getElementById("address").value = "";
-        document.getElementById("email").value = "";
-    }
 }
 
 //function to delete Data from local storage
@@ -223,12 +216,6 @@ function updateData(index)
 
             document.getElementById("Submit").style.display = "block";
             document.getElementById("Update").style.display = "none";
-        }
-        else{
-            document.getElementById("name").value = "";
-            document.getElementById("age").value = "";
-            document.getElementById("address").value = "";
-            document.getElementById("email").value = "";
         }
     }
     
