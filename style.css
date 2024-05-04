@@ -1,0 +1,28 @@
+body{
+    background-color: #1d2630;
+}
+
+*{
+    color: #fff;
+}
+
+#Update{
+    display: none;
+}
+
+
+#Submit:focus{
+    transform: scale(1.1);
+}
+
+#Update:focus{
+    transform: scale(1.1);
+}
+
+#crudTable{
+    border-radius: 10px;
+}
+
+th, td{
+    text-align: center;
+}
